@@ -1,0 +1,426 @@
+h1{
+  text-align: center;
+  color:#212121;
+  font-family: 'Anton', sans-serif;
+  text-shadow: #F5F5F5 1px 0 5px; 
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+/*This is a font for headings.*/
+
+
+h2{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Anton', sans-serif;
+  text-shadow: #212121 1px 0 5px; 
+  text-decoration: underline;
+  color:#F5F5F5;
+}
+
+/*This is the code for the font content*/
+
+h3 {
+  text-align: center;
+  color:#F5F5F5;
+  text-shadow: #212121 1px 0 3px; 
+  font-size: 13px;
+  font-family: sans-serif;
+  color:#F5F5F5;
+}
+
+/*This is the code for the font content*/
+
+body { 
+  background-image: url(https://static.pexels.com/photos/51415/pexels-photo-51415.jpeg) ;
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+}
+/*This is the code for the background image*/
+/*Navigation bar which was found by my team mate Alex who found it on codepen*/
+
+.nav1{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  flex-flow:row wrap;
+  background: #616161;
+}
+
+/* This is code for the top navigation bar*/
+
+.nav1 a{
+  text-decoration:none;
+  color:#F5F5F5;;
+  text-shadow: #000000 1px 0 5px;
+  padding:1em; 
+  display:block; 
+  font-family: 'Anton', sans-serif;
+  font-weight:bold;
+}
+
+/*This is the code for navigations bar font*/
+
+.nav1 a:hover{
+  background:rgba(155, 151, 151, 0.2);
+}
+
+/*This is the code for hover links effect*/
+
+@media all and (max-width:1000px){
+  .nav1{
+    justify-content:space-around;
+  }
+}
+
+/*This is the code for mobile phone*/
+
+@media all and (max-width: 1000px){
+  .nav1{
+    flex-flow:column wrap;
+  }
+  
+  /*This is the code for mobile phone*/
+
+  .nav1 a{
+    text-align:center;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+  /*This is the code for overlay effect*/
+}
+
+/*This is navigation bar 2*/
+
+.nav2{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  flex-flow:row wrap;
+  background:#616161;
+}
+
+/*This is the code for NR 2 navigation bar*/
+
+.nav2 a{
+  text-decoration:none;
+  color:white;
+  text-shadow: #000000 1px 0 5px;
+  padding:1em;
+  display:block; 
+  font-family: 'Anton', sans-serif;
+  font-weight:bold;
+}
+
+/*This is the code for NR 2 navigation bar font*/
+
+.nav2 a:hover{
+  background:rgba(237, 237, 237, 0.2);
+}
+
+/*This is the code for hover effect*/
+
+/*mobile phone*/
+
+@media all and (max-width:800px){
+  .nav2{
+    justify-content:space-around;
+  }
+}
+
+/*This is the code for mobile phone*/
+
+@media all and (max-width: 600px){
+  .nav2{
+    flex-flow:column wrap;
+  }
+  
+/*This is the code for mobile phone*/
+
+  .nav2 a{
+    text-align:center;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+ 
+}
+
+/*This is the code to allign the text in the middle*/
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #212121;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+/*This is the code for the font*/
+
+/*Body Section*/
+
+#menu {
+  min-height: 50px;
+  background-color:#9E9E9E;
+}
+
+/*This is the code for the heading bar*/
+
+#body {
+  margin-left: 3%;
+  margin-right:3%;
+  margin-top: 0.5%;
+  margin-bottom:0.5%;
+  background-color:#616161;
+}
+
+/*This is the code for body container*/
+
+#body1 {
+  margin-left: 3%;
+  margin-right:3%;
+  margin-top: 0.5%;
+  background-color:#616161;
+}
+
+/*This is the code for body container*/
+
+
+#body2 {
+  margin-left: 3%;
+  margin-right:3%;
+  margin-top: 0.5%;
+  background-color:#616161;
+}
+
+/*This is the code for body container*/
+
+#body3 {
+  margin-left: 3%;
+  margin-right:3%;
+  margin-top: 0.5%;
+  background-color:#616161;
+}
+
+/*This is the code for body container*/
+
+
+#footer {
+  margin-left: 3%;
+  margin-right:3%;
+  min-height: 70px;
+  margin-top: 0.5%;
+  background-color: #212121; 
+}
+
+/*This is the code for the footer*/
+
+/*home page boxes*/
+
+#menu, #body,#body1,#body2,#body3, #footer {
+  border: 1px solid #212121;
+}
+
+/*content boxes*/
+
+
+#contentbox1 {
+  margin-top:0.5%;
+  margin-bottom:0.5%;
+  margin-left: 0.5%;
+  margin-right:0.5%;
+  background-color:#212121;
+  border: solid;
+}
+
+/*This is the code for the content box*/
+
+#contentbox2 {
+  margin-top:0.5%;
+  margin-bottom:0.5%;
+  margin-left: 0.5%;
+  margin-right:0.5%;
+  min-height: 50px;
+  background-color:#212121;
+  border: solid;
+}
+
+/*This is the code for the content box*/
+
+#contentbox3 {
+  margin-top:0.5%;
+  margin-bottom:0.5%;
+  margin-left: 0.5%;
+  margin-right:0.5%;
+  min-height: 50px;
+  background-color:#212121;
+  border: solid;
+}
+
+
+/*This is the code for the content box*/
+
+#footerbox {
+  margin-top:0.5%;
+  margin-bottom:0.5%;
+  margin-left: 0.5%;
+  margin-right:0.5%;
+  min-height: 60px;
+  border: solid;
+  background-color: #212121;
+}
+
+/*This is the code for footerbox*/
+
+/*Video*/
+
+video { 
+  margin-top: 1%;
+  width:100%;
+  max-width:800px;
+  height:auto;
+  background: #212121;
+  display: block;
+  margin: 0 auto;
+}
+
+/*This is the code for the video*/
+
+/*contact form*/
+
+form {
+  margin-top: 1%;
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  background-color:#F5F5F5;
+}
+
+
+/*This is the code for contact page*/
+
+
+form div + div {
+  margin-top: 0.5em;
+}
+
+/**/
+
+label {
+  display: inline-block;
+  font-family: 'Anton', sans-serif;
+  color: #212121;
+  width: 90px;
+  text-align: left;
+}
+
+/*This is the code for the labels next to the boxes*/
+
+input, textarea {
+  font-family: 'Anton', sans-serif;
+  width: 400px;
+}
+
+/*This is the code for the textarea boxes*/
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+/*This is the code for the alligment of the text boxes*/
+
+.button {
+  padding-left: 230px; 
+}
+
+/*This is the code for the submit button*/
+
+button {
+  margin-left: .5em;
+}
+
+/*This is the code for the submit button*/
+
+#container {
+  margin-top:5px;
+  margin-bottom: 5px;
+  height:200%;
+}
+
+/*This is the code for the container*/
+
+/*columns*/
+
+
+.table {
+  display: table;
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+}
+
+/*This is the code for the grid table collumns*/
+
+.column {
+  display: table-cell;
+ 
+}
+
+/*This is the table to display columns inside the grid*/
+
+.middlebox {
+  background:#757575;
+  width: 220px; 
+}
+
+/*This is the code for the box in the middle of a column*/
+
+.twoboxes {
+  background: #607D8B;
+  width: 220px; 
+}
+
+/*They're the 2 boxes in the collumn*/
+
+
+/*Images*/
+
+
+header {
+  flex-flow: row wrap;
+  display: box;
+  display:flex;
+  background:#212121;
+}/*Heading container*/
+
+header {
+  padding:0;
+}/*Alligns the boxes together*/
+
+header div {
+  flex: auto;
+  width: 200px;
+  /*Alligns the boxes together*/
+}
+
+header div img {
+  width: 100%;
+  height: auto;
+  /*Alligns the boxes together*/
+}
+
+/Alligns the boxes together*/
+
+@media only screen and (max-width:500px) {image div {
+  margin:0;
+  }/*media query for the images*/
+
